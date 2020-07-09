@@ -1,0 +1,176 @@
+.open-button {
+	background-color: black;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	opacity: 0.8;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	width: 280px;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+		display: none;
+		position: fixed;
+		bottom: 0;
+		right: 15px;
+		border: 3px solid #84452d;
+		z-index: 9;
+		border-radius: 8px;
+}
+
+/* Add styles to the form container */
+.form-container {
+		max-width: 300px;
+		padding: 10px 10px 0px 10px;
+		background-color: white;
+		border-radius: 8px;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+	width: 89%;
+	padding: 15px;
+	margin: 5px 0 0
+	border: none;
+	background-color: #84452d;
+	resize: none;
+	max-height: 15px;
+	min-height: 15px;
+	border-radius: 8px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+	background-color: #84452d;
+	outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+	background-color: #4da21e;
+	color: white;
+	padding: 0px 20px;
+	border: none;
+	cursor: pointer;
+	width: 147px;
+	height: 30px;
+	margin-top:10px;
+	opacity: 0.8;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+	background-color: red;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+	opacity: 1;
+} 
+
+#miocolore {
+	margin: 5px;
+	border-radius: 20px;
+	position: relative;
+	left: 10px;
+	border: solid 0.5px #84452d;
+	background-color: #84452d;
+}
+
+#msg {
+	color: white;
+	font-weight: bold;
+}
+
+#chat {
+	width: 89%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: #f1f1f1;
+	resize: none;
+	height: 370px;
+	border-radius: 8px;
+	border: solid 0.5px white;
+	font-weight: bold;
+	overflow: auto;	  
+}
+
+.contenitore{
+	width: 100%;
+	height: 80px;
+	text-align: left;
+}
+
+.messaggio {
+	width: max-content;
+	padding: 10px;
+  	border-radius: 8px;
+	color: white;
+	background-color: #84452d;
+	float: right;
+	text-align: center;
+	border: 2px solid #84452d; 
+}
+
+.messaggioletto {
+	width: max-content;
+	padding: 10px;
+  	border-radius: 8px;
+	color: white;
+	background-color: #84452d;
+	float: left;
+	text-align: center;
+	border: 2px solid #84452d;
+	margin: auto;
+}
+
+#tema {
+	border-radius: 20px;
+	color: #84452d;
+	border: solid 0.5px #84452d;
+}
+
+#img {
+	float: right;
+	margin-top: 6px;
+	border-radius: 20px;
+	color: #84452d;
+	border: solid 0.5px #84452d;
+}
+
+.avatar{
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+	border: solid 0.5px #84452d;
+	float: right;
+	margin: 17px 10px 0px 0px;
+}
+
+.avatarletto{
+	height: 40px;
+	width: 40px;
+	border-radius: 25px;
+	border: solid 0.5px #84452d;
+	margin: 17px 0px 0px 10px;
+}
+
+h1 {
+	color: white;
+}
+
+label {
+	color: #84452d;
+	margin-left: 30px;
+}

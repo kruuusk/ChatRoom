@@ -1,1 +1,2 @@
 # ChatRoom
+Copiare tutti i dati della cartella sul proprio device, creare un database 'messaggi' con campi 'id', 'mittente', 'testo', 'colore', 'avatar', 'tempo'; implementare il collegamento al database nei file chat.js, leggi.php e send.php
